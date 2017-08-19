@@ -24,7 +24,7 @@ class Predictor:
         return (prob, kind)
 
     def get_sample_items(self):
-        n_samples = 3
+        n_samples = 4
         sample_dir = "./static/images/samples/"
         samples = [f for f in glob(os.path.join(sample_dir, "*.jpg"))]
         paths = random.sample(samples, n_samples)
