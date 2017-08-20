@@ -17,4 +17,7 @@ Computer-Vision関連のチュートリアルについて随時まとめてい�
 
 - img_tutorial/module_tutorial
 -> 画像認識関連モジュールに関して使用例をまとめている。
+
+- img_tutorial/DNN
+-> 主にtensorflowを用いたDeepLearning周りについてまとめる。
 ```
