@@ -128,3 +128,5 @@ if __name__ == '__main__':
             saver.restore(sess, last_model) # 変数データの読み込み
         print("test accuracy %g"%accuracy.eval(feed_dict={
             x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}))
+        print("test 1000 accuracy %g"%accuracy.eval(feed_dict={
+            x: mnist.test.images[:1000], y_: mnist.test.labels[:1000], keep_prob: 1.0}))
