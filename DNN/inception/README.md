@@ -12,4 +12,7 @@ $ python classify_image.py
 -> デフォルトのpandaの画像の分類
 $ python classify_image.py --image_file test_data/dog_img_chihuahua.jpg
 -> チワワの画像の分類
+
+※png形式では動かなかったので、画像の形式はjpgでなるべく用意する
+方が良さそうだと思われる。
 ```
