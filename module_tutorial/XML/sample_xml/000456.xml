@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sample_image</folder>
+	<filename>000456.jpg</filename>
+	<path>/Users/takahiro/Desktop/development/education/img_tutorial/module_tutorial/XML/sample_image/000456.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bus</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>44</ymin>
+			<xmax>439</xmax>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+</annotation>
